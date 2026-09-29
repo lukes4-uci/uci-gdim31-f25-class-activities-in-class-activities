@@ -22,7 +22,7 @@ our group tried to find games we had in common, but it just devolved into henri 
 1. moving the camera off of the cat makes unlinks it from the cat GameObject, so moving the cat does not move the camera. thus, the camera becomes stationary, while the cat continues to move according to the player's input. 
 
 #### 
-2. itch link: 
+2. itch link: https://lukes4-uci.itch.io/lukes4-w1-activity 
 
 
 
