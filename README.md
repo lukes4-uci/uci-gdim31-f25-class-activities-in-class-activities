@@ -32,7 +32,7 @@ our group tried to find games we had in common, but it just devolved into henri 
 
 2. The number of bounces can be measured without decimal points, so floats are not needed. Bools can only handle true or false statements, while strings include only text and so using it to handle numbers becomes much harder than just using integers.
 
-3. The line of code was not ended with a semicolon.
+3. The line of code was not ended with a semicolon, which resulted in a syntax error. The exact line is: "error CS1002: ; expected"
 ## Open-Source Assets
 
 ### W1
