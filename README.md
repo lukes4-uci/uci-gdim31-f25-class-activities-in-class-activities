@@ -28,8 +28,11 @@ our group tried to find games we had in common, but it just devolved into henri 
 
 ### W2
 
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The RGB scale being used goes from 0.0 to 1.0, so decimal points are necessary in order to measure different levels of red, blue, and green colours. Ints, bools, and strings cannot handle decimal points, but floats can.
 
+2. The number of bounces can be measured without decimal points, so floats are not needed. Bools can only handle true or false statements, while strings include only text and so using it to handle numbers becomes much harder than just using integers.
+
+3. The line of code was not ended with a semicolon.
 ## Open-Source Assets
 
 ### W1
