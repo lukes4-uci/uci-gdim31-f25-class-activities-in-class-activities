@@ -33,6 +33,24 @@ our group tried to find games we had in common, but it just devolved into henri 
 2. The number of bounces can be measured without decimal points, so floats are not needed. Bools can only handle true or false statements, while strings include only text and so using it to handle numbers becomes much harder than just using integers.
 
 3. The line of code was not ended with a semicolon, which resulted in a syntax error. The exact line is: "error CS1002: ; expected"
+
+
+### W3
+table #2
+#### activity 1
+1. String GetResponse(int choice, int friendshipLevel, bool secret)
+2. void SetLightDimness(int sanityLevel)
+3. bool DidPlayerHitBeat(float accuracy)
+
+#### activity 2
+Class: Taco shell
+Compoenent: Full taco (from Taco Bell)
+Member variables: Ingredients
+Methods: How you want the taco
+
+#### activity 3 part 3
+the brightness variable that is being modified does not have any in-method caps. they will keep on increasing in brightness until they reach the maximum possible values. 
+
 ## Open-Source Assets
 
 ### W1
