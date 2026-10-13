@@ -431,7 +431,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a2246b0deace44889a4eb66fb16813e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -732,7 +732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 475276098}
   _rigidbody: {fileID: 475276097}
-  _speedMultiplier: 1
+  _speedMultiplier: 2.2
   _speedThreshold: 10
 --- !u!58 &475276096
 CircleCollider2D:
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1105424281}
   _rigidbody: {fileID: 1105424280}
-  _speedMultiplier: 1
+  _speedMultiplier: 2
   _speedThreshold: 10
 --- !u!58 &1105424279
 CircleCollider2D:
@@ -1544,7 +1544,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a2246b0deace44889a4eb66fb16813e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1666,7 +1666,7 @@ Transform:
   m_GameObject: {fileID: 1105424277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 4.06, z: 0}
+  m_LocalPosition: {x: -1.86, y: 4.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2263,7 +2263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1635336769}
   _rigidbody: {fileID: 1635336768}
-  _speedMultiplier: 1
+  _speedMultiplier: 2.5
   _speedThreshold: 10
 --- !u!58 &1635336767
 CircleCollider2D:
@@ -2275,7 +2275,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a2246b0deace44889a4eb66fb16813e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
