@@ -56,6 +56,13 @@ table #4
 1. Cat and SoccerBall have RigidBodies, since they must interact with each other in a way that involves physics. Goal has IsTrigger since SoccerBall must pass through it and trigger a signal to increase points.
 2. No code issues, but after the initial addition of the RigidBody to the Cat, it would flip itself and the camera over. This was fixed by locking X and Z rotations. 
 
+### W6
+1. This class needs a Transform and a NavMeshAgent member variable.
+
+2. This class needs a Start() method.
+
+3. The Start() method should use GetComponent<> to get the NavMeshAgent Component on the Deer GameObject and then set the destination of the NavMeshAgent member variable to the Transform of the target GameObject.
+
 ## Open-Source Assets
 
 ### W1
