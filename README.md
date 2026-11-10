@@ -70,6 +70,7 @@ https://docs.google.com/document/d/1C6uCwfuqZOueFMv-xBgh9KSqakfdi0eeqCGhbDev6XM/
 
 #### Activity 2: Pair Programming
 partnered with: Ash
+
 What member variables does this class need?
 
 This class needs the speed, player GameObject, and isChasing member variables. The player member variable is due to the player transform in BatManager being private instead of public.
