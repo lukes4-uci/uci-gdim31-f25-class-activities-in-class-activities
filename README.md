@@ -83,6 +83,9 @@ What should the method(s) do?
 
 startChase() needs to change isChasing to true and then move the bat game object towards the transform of the player game object. stopChase() needs to change isChasing to false. 
 
+### W8
+the original code changed the muskrat's position based on the global directional vector rather than the muskrat's local directional vector. this meant that, instead of the forward and backward buttons moving the muskrat forward and backward based on its current rotation, they simply move it forward and backward along the same global axis independent of the muskrat's own rotation. 
+
 ## Open-Source Assets
 
 ### W1
